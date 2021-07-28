@@ -22,7 +22,7 @@ router.get('/zookeepers/:id', (req, res) => {
   } else {
     res.send(404);
   }
-});
+
 
 router.post('/zookeepers', (req, res) => {
   req.body.id = zookeepers.length.toString();
