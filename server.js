@@ -5,7 +5,7 @@ const { animals } = require('./data/animals');
 const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3004;
 const app = express();
 
 app.use(express.static('public'));
